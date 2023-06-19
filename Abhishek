@@ -1,1 +1,70 @@
 Testing Comit & push scenario
+
+package maybatch;
+
+public class trial {
+	
+	public static void main(String args[]) {
+	
+	System.out.println("Hello");
+	final int i = 10;
+	//i = 0;
+	//i = 30;
+	
+	//int int k = 50;
+	
+	int abc = 60;
+	
+	byte p = -1;
+	byte q = 1;
+	byte w = (byte)(p+q);
+	int x = p+q;
+	System.out.println(w);
+	System.out.println(x);
+	
+	int aa = -1;
+	int bb = 1;
+	int cc = aa+bb;
+	
+	
+			
+	System.out.println(p);
+	
+	int A = 10;
+	int B = 15;
+	//B = A+B; // 30
+	A = 5; // 20 // 5
+	B = 3; // 10 // 3
+	System.out.println(A & B);
+	System.out.println("value of A is "+A+ " and " + "value of B is "+B);
+	System.out.println(A*B & B/A);
+	System.out.println(B);
+	
+	long large = 1234_56789_01234_567l;
+	System.out.println(large);
+	
+	short H = (short) 120000000000000L;
+	System.out.println(H);
+	
+	char ch= 'b';
+	int M = (int)ch;
+	System.out.println(M);
+	
+	int ch1 = 102;
+	char ch2 = (char)ch1;
+	System.out.println(ch2);  
+	
+	int oct = 010;
+	System.out.println(oct);
+	
+	int octa = 0x10;
+	System.out.println(octa);
+	
+	
+	
+	
+	
+}
+	
+}
+

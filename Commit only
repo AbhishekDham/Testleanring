@@ -1,1 +1,12 @@
 Test commit only
+
+package maybatch;
+
+public class Test1 {
+public static void main(String[] args) {
+	System.out.println("hello ! welcome to java training");
+	
+	long k = 1234567890123456L;
+	System.out.println(k);
+}
+}
